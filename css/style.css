@@ -1,0 +1,99 @@
+
+body {
+
+    color:  #4d4d4d;
+    font-family: "Asap", sans-serif;
+
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+
+}
+
+h6 {
+
+
+}
+
+p {
+
+
+}
+
+/* header area*/
+
+header {
+    position: relative;
+    background-position: center;
+}
+
+.wrapper {
+   
+   position: absolute;
+   background-size: cover; 
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100vh;
+
+}
+
+.header-title{
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.nav li a:after {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+	left: 0; 
+	width: 0;
+	height: 1px; 
+	background-color: #4d4d4d; 
+	content: "";
+	transition:  0.3s ease-out; 
+}
+
+/* Как сделать размер линии строга по границам слова*/
+
+.nav li a:hover:after,
+        a:focus:after {
+	width: 100%; 
+}
+
+/* About area*/
+
+
