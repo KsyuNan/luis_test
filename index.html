@@ -9,56 +9,47 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
   </head>
 <body>
-    <header class="header">
-        <div class="wrapper no-repeat center">
-            <img class="img-fluid " width="100%" src="image/bg-element.png" alt=""> 
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" width="100px" class="d-inline-block align-top" alt="">
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row ">
+        <div class="col-md-5 header-sub">      
+              <h1>Luis Oenrique</h1>
+              <h6>User Experience / User Interface Expert</h6>
+              <button  class="btn btn-primary ">Know more</button>
+              <button  class="btn btn-primary ">Hire me</button>         
         </div>
-        <div class="container">
-        <nav class="navbar ">
-          <a class="navbar-brand" href="#">
-            <img  src="image/logo.png" class="d-inline-block align-top" alt="">
-          </a>
-          <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-        </nav> 
-        
-        <div class="header-title">
-          <div class="row">
-          <div class="col-mg-6 header-sub">
-             <h1>Luis Oenrique</h1>
-             <h6>User Experience / User Interface Expert</h6>
-             
-               <button type="button" class="btn btn-primary btn-lg">Know more</button>
-               <button type="button" class="btn btn-secondary btn-lg">Hire me</button>
-
-          </div>
-          <div class="col-mg-6 men">
-            <img src="image/wrapper.png" alt="">
-          </div>
+        <div class="col-md-7 men">
+          <img src="image/wrapper.png" width="370px" alt="">
         </div>
-      </div>       
       </div>
-     </header>
+    </div>
+  </header>
 
   <!--- about area-->
 
@@ -66,18 +57,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 title-about">
-              <i></i>
+              <hr class="about-hr">
               <h2>Know more about me</h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                 Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                 Aenean com- modo ligula eget dolor. Aenean massa. Cum sociis 
                  natoque penatibus et magnis dis parturient montes, nascetur 
                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
                   pretium quis, sem. Nulla consequat massa quis enim.</p>
               <a class="btn button-about" href="">Download my cv</a>
             </div>
-            <div class="picture-about">
+            <div class=" col-md-6 picture-about">
                <img src="image/about.png" alt="">
-
             </div>
         </div>
     </div>
@@ -87,51 +77,212 @@
 
   <section class="services">
     <div class="container">
-        <div class="title">
-            <h2>Services</h2>
-            <hr>
+        <div class="title text-center">
+          <hr>
+            <h2>Services</h2>            
         </div>
-        <div class="row">
-           <div class="servise-item">
-              <img src="image/icon-1" alt="">
+        <div class="service-block row content-center">
+           <div class="servise-item text-center">
+              <img src="image/icon-1.png" alt="">
               <h4>User research</h4>
            </div>
-           <div class="servise-item">
-              <img src="image/icon-2" alt="">
+           <div class="servise-item text-center">
+              <img src="image/icon-2.png" alt="">
               <h4>IA and Wireframes</h4>
            </div>
-           <div class="servise-item">
-              <img src="image/icon-3" alt="">
+           <div class="servise-item text-center">
+              <img src="image/icon-3.png" alt="">
               <h4>User testing</h4>
            </div>
-           <div class="servise-item">
-              <img src="image/icon-4" alt="">
+           <div class="servise-item text-center">
+              <img src="image/icon-4.png" alt="">
               <h4>Looks and feel design (UI)</h4>
            </div>
-           <div class="servise-item">
-              <img src="image/icon-5" alt="">
+           <div class="servise-item text-center">
+              <img src="image/icon-5.png" alt="">
               <h4>Delivery</h4>
            </div>
-           <div class="servise-item">
-              <img src="image/icon-6" alt="">
+           <div class="servise-item text-center">
+              <img src="image/icon6.png" alt="">
               <h4>Intagration support</h4>
            </div>
         </div>
     </div>
   </section>
 
+  <!--- Skills area-->
+
    <section class="skills-area">
       <div class="container">
-         <div class="title">
+         <div class="title text-center">
+           <hr>
              <h2>My skills</h2>
          </div>
- 
-
-
-
+         <div class="infographica">
+            <div class="row">
+              <div class="list-procent">
+                <ul class="list-procent">
+                  <li>100%</li>
+                  <li>90%</li>
+                  <li>80%</li>
+                  <li>70%</li>
+                  <li>60%</li>
+                  <li>50%</li>
+                </ul>
+              </div>
+              <div class="info-img">
+                   <img src="image/wave-bg.png" alt="">
+              </div>
+            </div>
+            <div class="info-wave">
+            </div>
+          </div>
+          <div class="adobe-list text-center ">
+            <ul class="list-editor row  ">
+                <li>
+                  <img class="sigle-editor" src="image/xd.png" alt="">
+                </li>
+                <li>
+                 <img class="sigle-editor" src="image/ae.png" alt="">
+                </li>
+                <li>
+                 <img class="sigle-editor" src="image/ps.png" alt="">
+                </li>
+                <li>
+                 <img class="sigle-editor" src="image/ai.png" alt="">
+                </li>
+            </ul>
+       </div>
       </div>
    </section>
 
+   <!--- Portfolio area-->
 
+   <section class="portfolio-area">
+      <div class="container">
+         <div class="title text-center">
+             <hr>
+             <h2>Portfolio</h2>
+         </div>
+         <div class="portfolio-gallery">
+            <div class="single-gallery">
+              <img src="image/item-1.png" alt="">
+            </div>
+            <div class="single-gallery">
+              <img src="image/item-2.png" alt="">
+            </div>
+            <div class="single-gallery">
+              <img src="image/item-3.png" alt="">
+            </div>
+            <div class="single-gallery">
+              <img src="image/item-4.png" alt="">
+            </div>
+            <div class="single-gallery">
+              <img src="image/item-5.png" alt="">
+            </div>
+            <div class="single-gallery">
+              <img src="image/item-6.png" alt="">
+            </div>
+         </div>
+         <div class="btn-shadow text-center">
+           <a class="btn btn-load" href="">Load more</a>
+         </div>
+      </div>
+   </section>
+
+   <!--- Portfolio area-->
+
+   <section class="testimonials">
+       <div class="container">
+         <div class="title text-center">
+            <hr>
+            <h2>Testimonials</h2>
+         </div>
+         <div class="testimonial-box">
+            <div class=" row testimonial-sub  ">
+              <div class="col-sm-3 test-photo">
+                <img src="image/testimonial.png" alt="">
+              </div>
+              <div class=" col-sm-7 test-title">
+                <h3>Limara Tusi</h3>
+                <h6>CEO, RANDOM COMPANY</h6>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+              </div>
+            </div>
+         </div>
+        </div>
+         <div class="fanfact">
+            <div class="container">
+                <div class="fanfact-box">
+                      <div class="fanfact-item text-center">
+                          <img src="image/fan-1.png" alt="">
+                          <h5>120</h5>
+                          <h4>Hands to work</h4>
+                      </div>
+                      <div class="fanfact-item text-center">
+                          <img src="image/fan-2.png" alt="">
+                          <h5>310</h5>
+                          <h4>Happy client</h4>
+                      </div>
+                      <div class="fanfact-item text-center">
+                        <img src="image/fan-3.png" alt="">
+                        <h5>510</h5>
+                        <h4>Finished project</h4>
+                      </div>
+                      <div class="fanfact-item text-center">
+                        <img src="image/fan-4.png" alt="">
+                        <h5>720</h5>
+                        <h4>Cups of coffe</h4>
+                      </div>
+                </div>
+            </div>
+         </div>
+   </section>
+
+   <!--- Footer area-->
+    
+   <footer class="footer">
+      <div class="footer-bg-img" >
+        <div class="overlay-footer"></div>
+          <div class="container">
+             <div class="title text-center">
+                <hr>
+                <h2>Sey Hello!</h2>
+             </div>
+             <form class="footer-form ">
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-4">              
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-4">             
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-area col-md-8" >               
+                <textarea class="form-control content-center" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+              </div>
+            </form>
+            <div class="btn-shadow text-center">
+              <a class="btn btn-default" href="">Send</a> 
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-copy row" >
+              <div>
+                  <ul class="social">
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-google-plus-g"></i></li>
+                    <li><i class="fab fa-behance"></i></li>
+                    <li><i class="fas fa-basketball-ball"></i></li>
+                  </ul>             
+                </div>
+               <div class="copywrite text-center">
+                  <p>2017. All Right Reserved</p>
+               </div>
+            </div>
+          </div>
+      </div>
+   </footer>
 </body>
 </html>
