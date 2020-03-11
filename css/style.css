@@ -1,5 +1,5 @@
 
-body {
+* {
 
     color:  #4d4d4d;
     font-family: "Asap", sans-serif;
@@ -8,61 +8,49 @@ body {
 
 h1 {
     font-size: 120px;
+    font-family: "Asap", sans-serif;
 }
 
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
+.container {
+   width: 1170px;
 
 }
 
-h5 {
-
-
+.title {
+    padding-top: 38px ;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+   
 }
 
-h6 {
-
-
+section {
+    
+    margin-top: 117px;
+    
 }
 
-p {
-
-
+hr {
+    border: 1px solid #4d4d4d;
+    width: 5%;
 }
 
 /* header area*/
 
 header {
+    background-image: url(../image/bg-element.png);
     position: relative;
     background-position: center;
+    background-size: cover; 
+    height: 100vh;
 }
 
-.wrapper {
-   
-   position: absolute;
-   background-size: cover; 
-   top: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
-   height: 100vh;
-
-}
-
-.header-title{
-    position: absolute;
-    z-index: 2;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+header .men img {
+    height: auto;
+    width: 100%;
+    margin: 80px auto;
 }
 
 .nav li a {
@@ -72,6 +60,8 @@ header {
     position: relative;
     cursor: pointer;
     font-size: 16px;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
 
 }
 
@@ -87,6 +77,56 @@ header {
 	transition:  0.3s ease-out; 
 }
 
+.men {
+    
+
+}
+
+.header-sub {
+    margin: 260px auto;
+    
+}
+
+.header-sub h1 {
+    font-size: 70px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+
+}
+
+.header-sub h6 {
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #909090;
+    margin-top: 20px;
+
+}
+
+.btn-primary  {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #4d4d4d;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 15px;
+
+}
+
+.btn-primary:hover {
+    border: 1px solid #4d4d4d ;
+    background: 0;
+    padding: 6px 15px;
+    color: #4d4d4d;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+
+
+}
+
+
 /* Как сделать размер линии строга по границам слова*/
 
 .nav li a:hover:after,
@@ -94,6 +134,363 @@ header {
 	width: 100%; 
 }
 
-/* About area*/
+
+/* About-area*/
+
+.picture-about {
+    margin:110px auto 130px;
+
+}
+
+.title-about {
+    margin-top: 160px;
+
+}
+
+.about-hr {
+    text-align: start;
+
+}
+
+.title-about h2 {
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.title-about p {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 12px;
+
+}
+
+.button-about {
+    border: 1px solid #4d4d4d;
+    text-transform: uppercase;
+    font-family: "Asap", sans-serif;
+    font-size: 14px;
+    padding: 6px 25px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+.button-about:hover {
+    background-color: #4d4d4d;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+
+/* Service area*/ 
+
+.services {
+   background-color:#f6f6f6;
+
+}
+
+.service-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.servise-item {
+   width: 300px;
+   margin-top:70px;
+
+}
+
+.servise-item h4 {
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+ 
+/* grid-test
 
 
+.service-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 180px;
+    grid-row-gap: 80px;
+    margin-top: 71px;
+
+}
+*/
+
+/* Skills area */
+
+
+
+.infographica {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px auto;
+
+}
+
+.list-procent li {
+
+    padding-bottom: 46px;
+
+}
+
+.info-img {
+    padding-top: 7px;
+
+}
+/* Исправить список редакторов. */
+
+.adobe-list {
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.list-editor li  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.sigle-editor {
+    margin-left: 210px;
+
+}
+
+.info-img {
+    position: relative;
+    
+}
+
+
+/* Portfolio area*/
+
+.portfolio-area {
+
+   background-color: #f6f6f6; 
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.single-gallery {
+    max-width: 320px;
+    padding: auto 30px ;
+    margin-top: 10px;
+}
+
+.btn-load {
+    
+     background-color: #fff;
+     text-transform: uppercase;
+     font-family: "Asap", sans-serif;
+     font-size: 14px;
+     padding: 8px 35px;
+     font-weight: 600;
+     margin-top: 20px;
+     margin-bottom: 120px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 3px 10px rgba(0,0,0,0.12);
+
+}
+
+.btn-load:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+
+}
+
+/*  Gris-loyaout 
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+}
+
+*/
+
+/* Testimonial area */
+
+.testimonial-box {
+    border: 1px solid #4d4d4d;
+    margin: 60px auto 120px;
+
+}
+
+.testimonial-sub  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px auto 80px;
+
+}
+
+.test-photo {
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+
+.testimonial-sub h3 {
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4d4d4d;
+    margin-top: 15px;
+
+}
+
+.testimonial-sub h6 {
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #909090;
+    margin-top: 15px;
+
+}
+
+.testimonial-sub p {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+
+/*fanfact area */
+
+.fanfact {
+    background-color: #f6f6f6;
+    padding: 52px auto;
+    margin-bottom: 154px;
+
+}
+
+.fanfact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 52px ;
+    align-items: flex-end;
+}
+
+.fanfact-item {
+    padding-bottom: 52px;
+    
+
+}
+
+.fanfact-item h5 {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+
+.fanfact-item h4{
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 5px;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+
+/*Footer area*/
+
+.footer {
+    position: relative;
+
+}
+
+.footer-bg-img {
+  
+    background: url(../image/footer-bg.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 786px;
+}
+
+
+.footer-form {
+
+    margin-top: 80px;
+}
+
+.footer-hr {
+    width: 100%;
+
+}
+
+.form-area {
+    margin-left: 185px;
+
+
+}
+
+.overlay-footer {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     background:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) ;
+
+}
+
+.btn-default {
+  
+    background-color: #fff;
+    text-transform: uppercase;
+    font-family: "Asap", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    padding: 14px 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 58px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 3px 10px rgba(0,0,0,0.12);
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.copywrite p {
+    
+
+}
