@@ -1,6 +1,9 @@
+
 * {
+
     color:  #4d4d4d;
     font-family: "Asap", sans-serif;
+
 }
 
 h1 {
@@ -8,8 +11,10 @@ h1 {
     font-family: "Asap", sans-serif;
 }
 
+
 .container {
    width: 1170px;
+
 }
 
 .title {
@@ -18,11 +23,14 @@ h1 {
     justify-content: center;
     font-family: "Asap", sans-serif;
     font-size: 25px;
-    font-weight: 600; 
+    font-weight: 600;
+   
 }
 
-section {   
-    margin-top: 117px;  
+section {
+    
+    margin-top: 117px;
+    
 }
 
 hr {
@@ -55,6 +63,7 @@ header .men img {
     font-size: 16px;
     font-family: "Asap", sans-serif;
     font-weight: 500;
+
 }
 
 .nav li a:after {
@@ -71,13 +80,15 @@ header .men img {
 
 
 .header-sub {
-    margin: 260px auto;   
+    margin: 260px auto;
+    
 }
 
 .header-sub h1 {
     font-size: 70px;
     font-family: "Asap", sans-serif;
     font-weight: 700;
+
 }
 
 .header-sub h6 {
@@ -99,6 +110,7 @@ header .men img {
     font-weight: 600;
     font-size: 14px;
     padding: 6px 15px;
+
 }
 
 .btn-primary:hover {
@@ -107,6 +119,8 @@ header .men img {
     padding: 6px 15px;
     color: #4d4d4d;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+
+
 }
 
 
@@ -122,14 +136,17 @@ header .men img {
 
 .picture-about {
     margin:110px auto 130px;
+
 }
 
 .title-about {
     margin-top: 160px;
+
 }
 
 .about-hr {
     text-align: start;
+
 }
 
 .title-about h2 {
@@ -138,6 +155,7 @@ header .men img {
     font-size: 65px;
     text-transform: uppercase;
     letter-spacing: 3px;
+
 }
 
 .title-about p {
@@ -147,6 +165,7 @@ header .men img {
     font-size: 17px;
     line-height: 1.5;
     margin-top: 12px;
+
 }
 
 .button-about {
@@ -157,6 +176,7 @@ header .men img {
     padding: 6px 25px;
     font-weight: 600;
     margin-top: 30px;
+
 }
 .button-about:hover {
     background-color: #4d4d4d;
@@ -168,6 +188,7 @@ header .men img {
 
 .services {
    background-color:#f6f6f6;
+
 }
 
 .service-block {
@@ -181,6 +202,7 @@ header .men img {
 .servise-item {
    width: 300px;
    margin-top:70px;
+
 }
 
 .servise-item h4 {
@@ -201,24 +223,31 @@ header .men img {
     grid-column-gap: 180px;
     grid-row-gap: 80px;
     margin-top: 71px;
+
 }
 */
 
 /* Skills area */
+
+
 
 .infographica {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 40px auto;
+
 }
 
 .list-procent li {
+
     padding-bottom: 46px;
+
 }
 
 .info-img {
     padding-top: 7px;
+
 }
 /* Исправить список редакторов. */
 
@@ -233,20 +262,24 @@ header .men img {
     flex-direction: row;
     justify-content: center;
     margin-top: 15px;
+
 }
 
 .sigle-editor {
     margin-left: 210px;
+
 }
 
 .info-img {
-    position: relative;  
+    position: relative;
+    
 }
 
 
 /* Portfolio area*/
 
 .portfolio-area {
+
    background-color: #f6f6f6; 
 }
 
@@ -259,12 +292,17 @@ header .men img {
 }
 
 .single-gallery {
-    max-width: 320px;
+    max-width: 32%;
     padding: auto 30px ;
     margin-top: 10px;
 }
 
-.btn-load {  
+.single-gallery img {
+    width: 100%;
+}
+
+.btn-load {
+    
      background-color: #fff;
      text-transform: uppercase;
      font-family: "Asap", sans-serif;
@@ -274,10 +312,12 @@ header .men img {
      margin-top: 20px;
      margin-bottom: 120px;
      box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 3px 10px rgba(0,0,0,0.12);
+
 }
 
 .btn-load:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+
 }
 
 /*  Gris-loyaout 
@@ -296,39 +336,39 @@ header .men img {
 .testimonial-box {
     border: 1px solid #4d4d4d;
     margin: 60px auto 120px;
-}
-
-.testimonial-sub  {
+    padding: 80px 120px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin: 40px auto 80px;
+    width: 85%;
 }
 
-.test-photo {
-    padding-left: 80px;
-    padding-top: 20px;
+.test-img {
+    width:160px;
 }
 
+.test-title {
+    flex-grow: 2;
+    margin-left: 30px;
+}
 
-.testimonial-sub h3 {
+.test-title h3 {
     font-family: "Asap", sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: #4d4d4d;
     margin-top: 15px;
+
 }
 
-.testimonial-sub h6 {
+.test-title h6 {
     font-family: "Asap", sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #909090;
     margin-top: 15px;
+
 }
 
-.testimonial-sub p {
+.test-title p {
     color: #4d4d4d;
     font-family: "Asap", sans-serif;
     font-weight: 500;
@@ -336,6 +376,7 @@ header .men img {
     line-height: 1.5;
     margin-top: 10px;
     text-transform: uppercase;
+
 }
 
 /*fanfact area */
@@ -344,6 +385,7 @@ header .men img {
     background-color: #f6f6f6;
     padding: 52px auto;
     margin-bottom: 154px;
+
 }
 
 .fanfact-box {
@@ -355,6 +397,7 @@ header .men img {
 }
 
 .fanfact-item {
+
     padding-bottom: 52px;
 }
 
@@ -366,6 +409,7 @@ header .men img {
     line-height: 1.5;
     margin-top: 10px;
     text-transform: uppercase;
+
 }
 
 .fanfact-item h4{
@@ -377,32 +421,42 @@ header .men img {
     margin-top: 5px;
     text-transform: uppercase;
     align-items: center;
+
 }
 
 /*Footer area*/
 
 .footer {
     position: relative;
+
 }
 
 .footer-bg-img {
+  
     background: url(../image/footer-bg.png) ;
     background-size: cover;
     background-position: center;
     height: 786px;
 }
 
-
 .footer-form {
-    margin-top: 80px;
+    margin: 70px auto;
+    width: 800px;
 }
+
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-item {
+    width: 390px;
+}
+
 
 .footer-hr {
     width: 100%;
-}
-
-.form-area {
-    margin-left: 185px;
 }
 
 .overlay-footer {
@@ -411,9 +465,11 @@ header .men img {
      right: 0;
      left: 0;
      background:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) ;
+
 }
 
-.btn-default { 
+.btn-default {
+  
     background-color: #fff;
     text-transform: uppercase;
     font-family: "Asap", sans-serif;
@@ -421,7 +477,7 @@ header .men img {
     font-size: 14px;
     padding: 14px 35px;
     font-weight: 600;
-    margin-top: 20px;
+    
     margin-bottom: 58px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 3px 10px rgba(0,0,0,0.12);
 }
@@ -432,3 +488,7 @@ header .men img {
     flex-direction: row;
 }
 
+.copywrite p {
+    
+
+}
