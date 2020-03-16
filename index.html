@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/98e926344e.js" crossorigin="anonymous"></script>
   </head>
 <body>
   <header class="header">
@@ -38,11 +40,13 @@
         </ul>
       </nav>
       <div class="row ">
-        <div class="col-md-5 header-sub">      
+        <div class="col-md-5 header-sub">     
               <h1>Luis Oenrique</h1>
               <h6>User Experience / User Interface Expert</h6>
-              <button  class="btn btn-primary ">Know more</button>
-              <button  class="btn btn-primary ">Hire me</button>         
+            <div class="btn-header">
+              <a class="btn btn-load" href="">Know more</a>
+              <a class="btn btn-load" href="">Hire me</a>
+            </div>     
         </div>
         <div class="col-md-7 men">
           <img src="image/wrapper.png" width="370px" alt="">
@@ -68,6 +72,7 @@
             </div>
             <div class=" col-md-6 picture-about">
                <img src="image/about.png" alt="">
+
             </div>
         </div>
     </div>
@@ -186,6 +191,7 @@
          </div>
          <div class="btn-shadow text-center">
            <a class="btn btn-load" href="">Load more</a>
+
          </div>
       </div>
    </section>
@@ -199,16 +205,14 @@
             <h2>Testimonials</h2>
          </div>
          <div class="testimonial-box">
-            <div class=" row testimonial-sub  ">
-              <div class="col-sm-3 test-photo">
+              <div class="test-photo">
                 <img src="image/testimonial.png" alt="">
               </div>
-              <div class=" col-sm-7 test-title">
+              <div class="test-title">
                 <h3>Limara Tusi</h3>
                 <h6>CEO, RANDOM COMPANY</h6>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
               </div>
-            </div>
          </div>
         </div>
          <div class="fanfact">
@@ -240,7 +244,6 @@
    </section>
 
    <!--- Footer area-->
-    
    <footer class="footer">
       <div class="footer-bg-img" >
         <div class="overlay-footer"></div>
@@ -250,20 +253,16 @@
                 <h2>Sey Hello!</h2>
              </div>
              <form class="footer-form ">
-              <div class="form-row justify-content-center">
-                <div class="form-group col-md-4">              
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="form-group col-md-4">             
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                </div>
-              </div>
-              <div class="form-area col-md-8" >               
+                <div class="form-group ">               
+                  <input type="email" class="input-item form-control" id="inputEmail4" placeholder="Email">
+                  <input type="password" class="input-item form-control" id="inputPassword4" placeholder="Password">
+                </div>        
+              <div class="form-area " >               
                 <textarea class="form-control content-center" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
               </div>
             </form>
             <div class="btn-shadow text-center">
-              <a class="btn btn-default" href="">Send</a> 
+              <a class="btn btn-default" href="">Send</a>   
             </div>
             <hr class="footer-hr">
             <div class="footer-copy row" >
