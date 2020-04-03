@@ -1,9 +1,13 @@
 
 * {
+  color:  #4d4d4d;
+  font-family: "Asap", sans-serif;
+}
 
-    color:  #4d4d4d;
-    font-family: "Asap", sans-serif;
-
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -14,23 +18,20 @@ h1 {
 
 .container {
    width: 1170px;
-
+   margin: 0 auto;
 }
 
-.title {
-    padding-top: 38px ;
+section {
+    padding: 7% auto; 
+ }
+
+.title {   
     text-transform: uppercase;
     justify-content: center;
     font-family: "Asap", sans-serif;
     font-size: 25px;
-    font-weight: 600;
-   
-}
-
-section {
-    
-    margin-top: 117px;
-    
+    font-weight: 600; 
+    padding-top: 7%;
 }
 
 hr {
@@ -45,13 +46,22 @@ header {
     position: relative;
     background-position: center;
     background-size: cover; 
-    height: 100vh;
+
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
 }
 
 header .men img {
     height: auto;
     width: 100%;
-    margin: 80px auto;
+    margin: 10% auto;
 }
 
 .nav li a {
@@ -63,13 +73,12 @@ header .men img {
     font-size: 16px;
     font-family: "Asap", sans-serif;
     font-weight: 500;
-
 }
 
 .nav li a:after {
     display: block;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 10%;
 	left: 0; 
 	width: 0;
 	height: 1px; 
@@ -80,15 +89,14 @@ header .men img {
 
 
 .header-sub {
-    margin: 260px auto;
-    
+    margin-top:20% ;
 }
+
 
 .header-sub h1 {
     font-size: 70px;
     font-family: "Asap", sans-serif;
     font-weight: 700;
-
 }
 
 .header-sub h6 {
@@ -96,11 +104,14 @@ header .men img {
     font-size: 18px;
     font-weight: 500;
     color: #909090;
-    margin-top: 20px;
-
+    margin-top: 7%;
 }
 
-.btn-primary  {
+.btn-header {
+  display: flex;
+}
+
+.btn-load  {
     margin-top: 20px;
     background-color: #fff;
     color: #4d4d4d;
@@ -110,49 +121,44 @@ header .men img {
     font-weight: 600;
     font-size: 14px;
     padding: 6px 15px;
-
 }
 
-.btn-primary:hover {
+.btn-load:hover {
     border: 1px solid #4d4d4d ;
     background: 0;
     padding: 6px 15px;
     color: #4d4d4d;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
-
-
 }
-
 
 /* Как сделать размер линии строга по границам слова*/
 
 .nav li a:hover:after,
         a:focus:after {
-	width: 100%; 
+    width: 100%; 
+    padding: 0;
 }
 
 
 /* About-area*/
 
-.picture-about {
-    margin:110px auto 130px;
 
-}
 
 .title-about {
-    margin-top: 160px;
-
+  margin: 10% auto;
+  width: 60%;
 }
 
-.about-hr {
-    text-align: start;
-
+.picture-about img {
+  margin-top: 25%;
+  max-width: 100%;
 }
+
 
 .title-about h2 {
     font-family: "Asap", sans-serif;
     font-weight: 600;
-    font-size: 65px;
+    font-size: 46pt;
     text-transform: uppercase;
     letter-spacing: 3px;
 
@@ -162,10 +168,9 @@ header .men img {
     color: #4d4d4d;
     font-family: "Asap", sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14pt;
     line-height: 1.5;
-    margin-top: 12px;
-
+    margin-top: 10px;
 }
 
 .button-about {
@@ -175,9 +180,10 @@ header .men img {
     font-size: 14px;
     padding: 6px 25px;
     font-weight: 600;
-    margin-top: 30px;
-
+    margin-top: 5%;
+   
 }
+
 .button-about:hover {
     background-color: #4d4d4d;
     color: #fff;
@@ -336,18 +342,20 @@ header .men img {
 .testimonial-box {
     border: 1px solid #4d4d4d;
     margin: 60px auto 120px;
-    padding: 80px 120px;
+    padding: 5%;
     display: flex;
-    width: 85%;
+    flex-direction: row;
+   
+    max-width: 85%;
 }
 
-.test-img {
-    width:160px;
+.testimonial-box img {
+
 }
 
 .test-title {
-    flex-grow: 2;
-    margin-left: 30px;
+  margin-left: 5%;
+  
 }
 
 .test-title h3 {
@@ -356,6 +364,7 @@ header .men img {
     font-weight: 700;
     color: #4d4d4d;
     margin-top: 15px;
+    transition: 0.5s;
 
 }
 
@@ -363,13 +372,13 @@ header .men img {
     font-family: "Asap", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #909090;
+    color: #4d4d4d;
     margin-top: 15px;
 
 }
 
 .test-title p {
-    color: #4d4d4d;
+    color:  #909090;
     font-family: "Asap", sans-serif;
     font-weight: 500;
     font-size: 17px;
@@ -516,4 +525,12 @@ header .men img {
 .copywrite {
     font-size: 12pt;
     font-weight: 600;
+ 
+    
+}
+
+.footer-sub { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
